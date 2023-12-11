@@ -14,6 +14,9 @@ public class variables{
         //arthimatic operation using user input
         Scanner sc = new Scanner(System.in);
         String name = sc.nextLine();
+        String ab = sc.next();
+        String ba = sc.nextLine();
+
         int k = sc.nextInt();
         int l =sc.nextInt();
         System.out.println(k+l);
