@@ -2,6 +2,9 @@ class Pen{
     String color;
     String type;//ball gel
 
+    Pen(){
+        System.out.println("this is a Pen constructor\n");
+    }
     public void write(){
         System.out.println("Write something\n");
     }
@@ -21,6 +24,12 @@ class Student{
     double other_expense;
     String batch;
     String regno;
+
+    //non-paramitirised constructor
+    Student(){
+        System.out.println("This is a constructor");
+    }
+
 
     void printname(){
         System.out.println(this.name);
