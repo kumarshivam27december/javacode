@@ -1,4 +1,4 @@
-package myfirstproject.oops;
+
 
 public class notes {
     /*

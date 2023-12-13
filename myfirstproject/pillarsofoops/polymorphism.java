@@ -52,9 +52,12 @@
 
 
  //or it must have differnt no of arguments passed
- //or it should have different name 
+ //or it should have different argument 
 
 
  //this is function overloading or compile time polymorphism
  //which is a part of polymorphism in oops
- 
+
+ //it is easy to solve as it happen to the run time rather than runtime which is more xdangerous as it occur mostly after or during thye running of the program
+ //so it is more preffered to use
+

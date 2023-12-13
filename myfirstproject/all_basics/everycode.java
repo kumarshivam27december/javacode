@@ -1,7 +1,6 @@
-package myfirstproject.all_basics;
-
+package all_basics;
 public class everycode {
-    
+
 }
 
 /* 
