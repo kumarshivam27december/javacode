@@ -4,15 +4,27 @@
  * Method 1. ->using abstarct keyword
  * Method 2. ->using interface
  */
-class Animal{
-    public void walk(){
-
+abstract class Animal{
+    abstract void walk();
+    /*
+     * syntax
+     * abstract void functionname();
+     */
+    public void eat(){
+        System.out.println("animal eats");
+    }
+    Animal(){
+        System.out.println("This is animal constructor");
     }
 }
 class Horse extends Animal{
     public void walk(){
         System.out.println("Walking with 4 leg");
     }
+    Horse(){
+        System.out.println("This is horse constructor");
+    }
+
 }
 class Chicken extends Animal{
     public void walk(){
@@ -60,9 +72,38 @@ public class abstraction {
           * if we need the walk function in the 
           * animal so we can just keep it but it 
           * has no direct use so we can make this 
-          * abstarct
+          * abstract
+          *
+          * we can make the animal walk function
+          * as abstarct
+          *
+          *
           *
           *
           */
+
+        //// Animal animal = new Animal() ;
+        // cannot intitiate this type of
+        //This is runtime error
+        //happen at runtime
+        //Cannot instantiate the type Animal
+
+        /*
+         * in abstract we can use both
+         * abstract and non abstract function
+         * 
+         * 
+         */
+        horse1.eat();
+
+        //first base class is called
+        //then derived class is called
+        //this is called constructor chaining in java
+
+
+            
+          
     }
 }
+//interfaces have pure abstraction
+//it remove all useless information
