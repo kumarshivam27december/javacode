@@ -1,4 +1,4 @@
-// package abs_encap;
+package abs_encap;
 class Student{
     String name;
     static String School;
