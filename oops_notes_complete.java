@@ -23,7 +23,7 @@ class Student {
    }
 }
 
-//wtf
+
 public class OOPS {
    public static void main(String args[]) {
        Student s1 = new Student();
