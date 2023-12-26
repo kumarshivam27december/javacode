@@ -1,7 +1,3 @@
-package all_basics;
-public class everycode {
-
-}
 
 /* 
 
@@ -185,3 +181,4 @@ public class switchcase {
 
 
  */
+

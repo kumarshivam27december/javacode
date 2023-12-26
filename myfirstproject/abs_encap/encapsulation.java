@@ -1,4 +1,4 @@
-package abs_encap;
+
 /*
  * Encapsulation is the process of 
  * combining data and functions into 

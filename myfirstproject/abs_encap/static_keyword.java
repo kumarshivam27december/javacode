@@ -1,4 +1,4 @@
-package abs_encap;
+// package abs_encap;
 class Student{
     String name;
     static String School;
@@ -26,6 +26,7 @@ public class static_keyword{
         Student student1 = new Student();
         student1.name = "Rahul";
         System.out.println(student1.School);
+        
      }
 }
 

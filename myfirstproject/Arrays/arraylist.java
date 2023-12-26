@@ -5,6 +5,8 @@ public class arraylist {
         ArrayList<Integer> list1 = new ArrayList<Integer>();
         ArrayList<Integer> list2 = new ArrayList<>();
 
+      
+
         list1.add(2);
         list1.add(3);
         list1.add(1);
@@ -40,6 +42,17 @@ public class arraylist {
         for (int i = 0; i < list1.size(); i++) {
             System.out.print(list1.get(i)+ " ");
         }
+
+
+        //here is the object 
+        //to avoid it we use generics
+        ArrayList arrayList = new ArrayList<>();
+        arrayList.add("keeping a string");
+        arrayList.add(20);
+        
+        System.out.println(arrayList);
+
+        
     
     
     }
