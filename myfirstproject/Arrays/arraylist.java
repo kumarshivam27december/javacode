@@ -3,7 +3,7 @@ import java.util.Collections;
 public class arraylist {
     public static void main(String[] args) {
         ArrayList<Integer> list1 = new ArrayList<Integer>();
-        ArrayList<Integer> list2 = new ArrayList<>();
+        // ArrayList<Integer> list2 = new ArrayList<>();
 
       
 

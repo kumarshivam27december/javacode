@@ -6,7 +6,6 @@ public class forone {
         int input = sc.nextInt();
         for(int i=0;i<=input;i+=2){
             System.out.println(i);
-
         }
     }
 }
